@@ -22,6 +22,6 @@ OR
 
 ``` dotnet run ```
 
-and then click the linke after "Now listening on:" and then add /swagger to the end of the URL to open the Swagger tool 
+and then click the link after "Now listening on:" and then add /swagger to the end of the URL to open the Swagger tool 
 
 3. You can also test in Postman if you have it running on a localhost somewhere 
