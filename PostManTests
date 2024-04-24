@@ -1,0 +1,14 @@
+// Feel free to run these in the Postman UI
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Response body contains valid JSON", function () {
+    pm.response.to.be.json;
+});
+
+pm.test("Response body contains weather forecasts for 8 days", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.length).to.eql(8);
+});
