@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dgan\\Learn\\Learn.csproj": {}
+    "c:\\Users\\dgan\\Learn\\Learn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dgan\\Learn\\Learn.csproj": {
+    "c:\\Users\\dgan\\Learn\\Learn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dgan\\Learn\\Learn.csproj",
+        "projectUniqueName": "c:\\Users\\dgan\\Learn\\Learn.csproj",
         "projectName": "Learn",
-        "projectPath": "C:\\Users\\dgan\\Learn\\Learn.csproj",
+        "projectPath": "c:\\Users\\dgan\\Learn\\Learn.csproj",
         "packagesPath": "C:\\Users\\dgan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dgan\\Learn\\obj\\",
+        "outputPath": "c:\\Users\\dgan\\Learn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dgan\\AppData\\Roaming\\NuGet\\NuGet.Config",

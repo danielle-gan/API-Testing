@@ -27,9 +27,9 @@ var precipitation = new[]
     "Raining", "Snowing", "Hailing", "Thunderstorming"
 };
 
-app.MapGet("/weatherforecast", () =>
+app.MapGet("/weatherforecast/{days}", (int days) =>
 {
-    var forecast =  Enumerable.Range(1, 8).Select(index =>
+    var forecast =  Enumerable.Range(1, days).Select(index =>
         new WeatherForecast
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
